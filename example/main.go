@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	sdk "github.com/friendsofshopware/go-shopware-admin-api-sdk"
+	sdk "github.com/florian-raab/go-shopware-admin-api-sdk"
 )
 
 func main() {

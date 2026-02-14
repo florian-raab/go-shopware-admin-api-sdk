@@ -1,4 +1,4 @@
-module github.com/friendsofshopware/go-shopware-admin-api-sdk
+module github.com/florian-raab/go-shopware-admin-api-sdk
 
 go 1.24
 

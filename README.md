@@ -1,3 +1,10 @@
+# IMPORTANT NOTES
+
+This is a fork of the original repo: https://github.com/FriendsOfShopware/go-shopware-admin-api-sdk
+- Fork contains adjustments and is published for our own needs. 
+- No support or maintenance is guaranteed.
+- Feel free to use it at your own risk.
+
 # SDK for the Shopware 6 Admin API
 
 See example folder
