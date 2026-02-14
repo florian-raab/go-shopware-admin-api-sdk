@@ -26,9 +26,11 @@ type Criteria struct {
 }
 
 type CriteriaFilter struct {
-	Type  string      `json:"type"`
-	Field string      `json:"field"`
-	Value interface{} `json:"value"`
+	Type     string           `json:"type"`
+	Field    string           `json:"field,omitempty"`
+	Value    interface{}      `json:"value,omitempty"`
+	Operator string           `json:"operator,omitempty"`
+	Queries  []CriteriaFilter `json:"queries,omitempty"`
 }
 
 type CriteriaSort struct {
